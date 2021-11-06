@@ -1,6 +1,6 @@
 <?php
 /** 
- * Script de contrôle et d'affichage du cas d'utilisation "Rechercher"
+ * Script de contrï¿½le et d'affichage du cas d'utilisation "Rechercher"
  * @package default
  * @todo  RAS
  */
@@ -12,6 +12,7 @@
  
   // Construction de la page Accueil
   // pour l'affichage (appel des vues) 
+  
   include($repVues."entete.php") ;
   include($repVues."menu.php") ;
   include($repVues."vAccueil.php");
