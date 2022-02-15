@@ -3627,7 +3627,7 @@ input, select, textarea {
 	.wrapper {
 		background-color: #2e3141;
 		/* margin: 6.5em 0; */
-		position: relative;
+		/* position: relative; */
 	}
 
 		.wrapper:before, .wrapper:after {
@@ -3649,7 +3649,7 @@ input, select, textarea {
 			display: block;
 			height: 6.5em;
 			position: absolute;
-			width: 100%;
+			/* width: 100%; */
 		}
 
 		.wrapper:before {
