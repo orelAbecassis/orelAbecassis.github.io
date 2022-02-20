@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Projet Gestion médicament/title>
+		<title>Projet la Fleur</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets1/css/main.css" />
@@ -29,8 +29,8 @@
 					<section id="wrapper">
 						<header>
 							<div class="inner">
-								<h2>Projet JAVA : Gestion des médicament</h2>
-								<p>Projet scolaire : NOVEMBRE ~ AVRIL : 2021-2022 </p>
+								<h2>laFleur</h2>
+								<p>Projet scolaire : SPETEMBRE ~ OCTOBRE 2021 </p>
 							</div>
 						</header>
 
@@ -39,14 +39,13 @@
 								<div class="inner">
 
 									<h3 class="major">Présentation du projet</h3>
-									<p>pour cette 2e année de BTS, notre professeur d'application nous a donné un cahier des charges pour 
-										créer une application pour une gestion de médicament avec le langauge JAVA et en équipe. 								 
-                                         
+									<p>Lors de cette 2 eme année, nous avons appris à utiliser le Modele Vue Controleur pour 
+                                        les projets php avec  notre professeur de développement Web, à travers le projet La Fleur.
+                                        Il nous a demandé diverses améliorations par rapport au projet de base qu'il nous avait fourni, 
+                                        pour mieux maitriser cette aspect du MVC. 
                                     </p>
-									<p>Cette application doit permettre à un médecin de se connecter à la plateforme. une fois dedans, il pouvait insérer,
-										modifier ou bien lister des types d'indivus (enfants, adulte ...). Il pouvait insérer, modifier et lister différents 
-										médicaments. Il a aussi la possibilité de prescrire des orbonnances.
-									</p>
+									<p>Ce site permet des interactions tel que lister, modifier, ajouter ou bien supprimer des fleurs ainsi qu'une 
+										liste d'utilisateurs avec différents droits. Il y a deux status : Visiteurs ou Administrateurs.</p>
 
 									<p>Notre professeur nous donnait à chacun différentes missions à effectuer.</p>
 
