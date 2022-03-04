@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Projet Gestion médicament/title>
+		<title>Projet JAVA</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets1/css/main.css" />
@@ -21,7 +21,7 @@
 
 				<!-- Header -->
 					<header id="header">
-						<h1><a href="index.html">Accueil</a></h1>
+						<h1><a href="index.html#six">Accueil</a></h1>
 						
 					</header>
 
@@ -29,75 +29,101 @@
 					<section id="wrapper">
 						<header>
 							<div class="inner">
-								<h2>Projet JAVA : Gestion des médicament</h2>
-								<p>Projet scolaire : NOVEMBRE ~ AVRIL : 2021-2022 </p>
+								<h2>GSB JAVA</h2>
+								<p>Projet de Deuxiéme année : </p>
 							</div>
 						</header>
 
 						<!-- Content -->
 							<div class="wrapper">
+							
 								<div class="inner">
-									<h3>TEST</h3>
 
 									<h3 class="major">Présentation du projet</h3>
-									<p>pour cette 2e année de BTS, notre professeur d'application nous a donné un cahier des charges pour 
-										créer une application pour une gestion de médicament avec le langauge JAVA et en équipe. 								 
-                                         
+									<p>Lors de cette 2 eme année, nous avons appris à utiliser le Modele Vue Controleur pour 
+                                        les projets php avec  notre professeur de développement Web, à travers diverse projet. 
                                     </p>
-									<p>Cette application doit permettre à un médecin de se connecter à la plateforme. une fois dedans, il pouvait insérer,
-										modifier ou bien lister des types d'indivus (enfants, adulte ...). Il pouvait insérer, modifier et lister différents 
-										médicaments. Il a aussi la possibilité de prescrire des orbonnances.
-									</p>
+									<p>Notre professeur nous a demandé de créer un site pour une gestion de matériel médicales. Ce dernier est 
+									composé de plusieurs fonctionalités repartit en deux categories : les visiteurs et la gestion de materiels.
+									Pour les visiteurs et la gestion de materiels, les fonctions demandé sont :  lister, modifier, ajouter rechercher et 
+									supprimer. Pour la gestion des matériels, une fonction reserver et restituer étaient en plus.</p>
+									<p>Nous avons établi ce projet en équipe, pour se partager les différentes tâches, nous avons créer un 
+										gestionnaire de projet avec le Logiciel Trello. </p>
+									<section class="features">
 
-									<p>Un médecin peut aussi créer un médicament qui ne figure pas dans la liste initial ainsi que ses
-										contre indication.</p>
+										<article>
+											<a href="images/trello.jpg" class="example-image-link image" data-lightbox="example-1"><img src="images/trello.jpg" class="example-image" /></a>
+											<h3 class="major">La répartition des tâches.</h3>
+											
+											
+										</article>
+									</section>
 
-									
-									<h3 class="major">Connexion</h3>
-										<p>Lors de la fin du projet, nous nous sommes interessés sur l'aspect
-											securité des fonctionalités. Nous avons décidé avec notre professeur 
-											de celles qui seront diponibles aux visiteurs et celles disponibles aux 
-											adminitrateurs. Pour se faire, nous avons rajouté un bouton de connexion
-											 qui une fois faite permettra certaines fonctionalités restreintent pour un 
-											 utilisateur comme celle de la recherche de fleur et toutes les fonctionalités  
-											 disponibles s'il s'agit d'un administrateur. j'ai également securisé 
-											 l'accés à l'url des pages, n'étant pas disponible si le cookie de connexion 
-											 n'est pas rempli ou encore empecher l'injection SQL de bas niveau.</p>
+									<h3 class="major">Base de donnée : Gestion</h3>
+										<p>POour ce projet, nous avons commencé par créer une base donnée. En premier lieu, nous avons créer un MCD avec
+											le logiciel Looping puis sur Mysql.
+										</p>
 									
 											 <section class="features">
 											 <article>
-												<a href="images1/connexionFleur.jpg" class="example-image-link image" data-lightbox="example-1"><img src="images1/connexionFleur.jpg" class="example-image" /></a>
-												<h3 class="major">La page de connexion</h3>
-												
-												
+												<a href="images/bddGestion.jpg" class="example-image-link image" data-lightbox="example-1"><img src="images/bddGestion.jpg" class="example-image" /></a>
+												<h3 class="major">La base de donnée</h3>
+											</article>
+											<article>
+												<a href="images/mcd.jpg" class="example-image-link image" data-lightbox="example-1"><img src="images/mcd.jpg" class="example-image" /></a>
+												<h3 class="major">La Modélisation</h3>
 											</article>
 										</section>
 
-									<h3 class="major">Utilisateur</h3>
-									<p>La partie du projet concernant les utlisateurs, représente divers actions que j'ai 
-										dû réaliser. Tout d'abord, pouvoir les lister en distinguant les visiteurs et 
-										les administrateurs, ajouter un utilisateur ou bien en modifier un. Toutes ces méthodes 
-										ont dû être réalisé à travers un MVC qui redirige les requêtes SQL que j'ai dû créer 
-										à la Vue designé pour l'affichage demandé, ou encore verifier si un Utilisateur existe déjà 
-										lors de sa création, mais également la possibilité de pouvoir confirmé le mot de passe pour 
-										être certain de son entrée.</p>
+									<h3 class="major">Visiteurs</h3>
+									<p>La partie du projet concernant les visiteurs, représente divers actions qu'on a
+										dû réaliser. Tout d'abord, pouvoir les lister, ajouter un utilisateur ou bien en modifier un. 
+										Toutes ces méthodes ont dû être réalisé à travers un MVC qui redirige les requêtes SQL que j'ai dû créer 
+										à la Vue designé pour l'affichage demandé, ou encore verifier si un visiteur existe déjà 
+										lors de sa création.</p>
 
 										<section class="features">
 
 											<article>
-												<a href="images1/adminFleur.jpg" class="example-image-link image" data-lightbox="example-1"><img src="images1/adminFleur.jpg" class="example-image" /></a>
-												<h3 class="major">Le menu d'un Administrateur</h3>
+												<a href="images/listerVisiteur.jpg" class="example-image-link image" data-lightbox="example-1"><img src="images/listerVisiteur.jpg" class="example-image" /></a>
+												<h3 class="major">Lister les Visiteurs</h3>
 												
 												
 											</article>
-											<article>
-												<a href="images1/clientFleur.jpg" class="example-image-link image" data-lightbox="example-1"><img src="images1/clientFleur.jpg" class="example-image" /></a>
-												<h3 class="major">Le menu d'un client</h3>
-												
-											</article>
+											
 										</section>
+										<p>Pour ajouter un visiteur, on a créé un formulaire avec toutes les informations necessaires. Une fois que 
+											le visiteur a bien été ajouté, il s'affichera directement à la suite de la liste des visiteurs. Pour modifier
+											les coordonnées d'un visiteur, il y aura un même formulaire pour ce faire.</p>
+	
+											<section class="features">
+	
+												<article>
+													<a href="images/ajouterVisiteur.jpg" class="example-image-link image" data-lightbox="example-1"><img src="images/ajouterVisiteur.jpg" class="example-image" /></a>
+													<h3 class="major">Formulaire d'ajout</h3>
+												</article>
+												<article>
+													<a href="images/modifierVisiteur.jpg" class="example-image-link image" data-lightbox="example-1"><img src="images/modifierVisiteur.jpg" class="example-image" /></a>
+													<h3 class="major">Formulaire de modification</h3>
+												</article>
+											</section>
+											<p>Pour rechercher ou supprimer un visiteur, on a créé un formulaire ou le médecin devra rentrer la référence du visiteur. 
+												Un tableau avec les informations du visiteur s'affichera et pour le supprimé, un message de confirmation s'affichera .</p>
+		
+												<section class="features">
+		
+													<article>
+														<a href="images/supprimerVisiteur.jpg" class="example-image-link image" data-lightbox="example-1"><img src="images/supprimerVisiteur.jpg" class="example-image" /></a>
+														<h3 class="major">Formulaire de suppression</h3>
+													</article>
+													<article>
+														<a href="images/rechercherVisiteur.jpg" class="example-image-link image" data-lightbox="example-1"><img src="images/rechercherVisiteur.jpg" class="example-image" /></a>
+														<h3 class="major">Formulaire de recherche</h3>
+													</article>
+												</section>
+	
 
-										<h3 class="major">Les Fleurs</h3>
+										<h3 class="major">Les gestions de matériels</h3>
 										<p>L'onglet concernant les fleurs permet quatre utilisations. Nous pouvons lister ou 
 											ajouter des fleurs tout comme les clients, mais nous pouvons également en supprimer  
 											ou faire une recherche en particulier. Tout cela  en utilisant également le concept 
