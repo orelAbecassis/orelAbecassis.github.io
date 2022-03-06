@@ -30,7 +30,7 @@
 						<header>
 							<div class="inner">
 								<h2>GSB JAVA</h2>
-								<p>Projet de Deuxiéme année : </p>
+								<p>Projet de Deuxiéme année : OCTOBRE ~ AVRIL 2022</p>
 							</div>
 						</header>
 
@@ -41,18 +41,24 @@
 
 									<h3 class="major">Présentation du projet</h3>
 									<p>Lors de cette 2 eme année, nous avons appris à utiliser le Modele Vue Controleur pour 
-                                        les projets php avec  notre professeur de développement Web, à travers diverse projet. 
+                                        les projets en JAVA avec  notre professeur de développement d'Application, à travers diverse TP. 
                                     </p>
-									<p>Notre professeur nous a demandé de créer un site pour une gestion de matériel médicales. Ce dernier est 
-									composé de plusieurs fonctionalités repartit en deux categories : les visiteurs et la gestion de materiels.
-									Pour les visiteurs et la gestion de materiels, les fonctions demandé sont :  lister, modifier, ajouter rechercher et 
-									supprimer. Pour la gestion des matériels, une fonction reserver et restituer étaient en plus.</p>
-									<p>Nous avons établi ce projet en équipe, pour se partager les différentes tâches, nous avons créer un 
+									<p>Notre professeur nous a demandé de créer une application pour différentes gestions et en équipe. Nous 
+										avons choisi la gestion de médicament qui est composé de plusieurs fonctionalités repartit 
+										en plusieurs categories : les médecins qui doivent se connecter, les différents médicaments
+										avec leurs interactions ainsi que les prescriptions pour chaques individu.</p>
+
+									<p>Pour la gestion de médicaments et des individus les fonctions demandés sont :  lister, modifier, ajouter.
+										Pour les interactions de tout les médicaments la fonction était de lister tout les médicaments, d'en 
+										sélectionner un pour savoir s'il est dangereux de le prendre en même temps qu'un autre ou pas.
+									Un médecin a la possibilté de préscrire une ordonnance.</p>
+									
+									<p>Comme nous avons établi ce projet en équipe, pour se partager les différentes tâches, nous avons créer un 
 										gestionnaire de projet avec le Logiciel Trello. </p>
 									<section class="features">
 
 										<article>
-											<a href="images/trello.jpg" class="example-image-link image" data-lightbox="example-1"><img src="images/trello.jpg" class="example-image" /></a>
+											<a href="images/trello1.jpg" class="example-image-link image" data-lightbox="example-1"><img src="images/trello1.jpg" class="example-image" /></a>
 											<h3 class="major">La répartition des tâches.</h3>
 											
 											
@@ -66,87 +72,116 @@
 									
 											 <section class="features">
 											 <article>
-												<a href="images/bddGestion.jpg" class="example-image-link image" data-lightbox="example-1"><img src="images/bddGestion.jpg" class="example-image" /></a>
+												<a href="images/bddMed.jpg" class="example-image-link image" data-lightbox="example-1"><img src="images/bddMed.jpg" class="example-image" /></a>
 												<h3 class="major">La base de donnée</h3>
 											</article>
-											<article>
-												<a href="images/mcd.jpg" class="example-image-link image" data-lightbox="example-1"><img src="images/mcd.jpg" class="example-image" /></a>
-												<h3 class="major">La Modélisation</h3>
-											</article>
+											
 										</section>
 
-									<h3 class="major">Visiteurs</h3>
-									<p>La partie du projet concernant les visiteurs, représente divers actions qu'on a
-										dû réaliser. Tout d'abord, pouvoir les lister, ajouter un utilisateur ou bien en modifier un. 
-										Toutes ces méthodes ont dû être réalisé à travers un MVC qui redirige les requêtes SQL que j'ai dû créer 
-										à la Vue designé pour l'affichage demandé, ou encore verifier si un visiteur existe déjà 
-										lors de sa création.</p>
+									<h3 class="major">La page de connexion</h3>
+									<p>Un médecin peut directement se connecter s'il a un compte. des vérifications ont été mis en place en cas de mauvaise saisi. 
+										Si un médecin n'a aucun idendifiant, pourra s'inscrire.
+									</p>
 
 										<section class="features">
 
 											<article>
-												<a href="images/listerVisiteur.jpg" class="example-image-link image" data-lightbox="example-1"><img src="images/listerVisiteur.jpg" class="example-image" /></a>
-												<h3 class="major">Lister les Visiteurs</h3>
+												<a href="images/java/connexionGif.gif" class="example-image-link image" data-lightbox="example-1"><img src="images/java/connexionGif.gif" class="example-image" /></a>
+												<h3 class="major">Connexion</h3>
+												
+												
+											</article>
+											<article>
+												<a href="images/java/inscriptionGif.gif"  class="example-image-link image" data-lightbox="example-1"><img src="images/java/inscriptionGif.gif" class="example-image" /></a>
+												<h3 class="major">Inscription</h3>
 												
 												
 											</article>
 											
 										</section>
-										<p>Pour ajouter un visiteur, on a créé un formulaire avec toutes les informations necessaires. Une fois que 
-											le visiteur a bien été ajouté, il s'affichera directement à la suite de la liste des visiteurs. Pour modifier
-											les coordonnées d'un visiteur, il y aura un même formulaire pour ce faire.</p>
-	
-											<section class="features">
-	
-												<article>
-													<a href="images/ajouterVisiteur.jpg" class="example-image-link image" data-lightbox="example-1"><img src="images/ajouterVisiteur.jpg" class="example-image" /></a>
-													<h3 class="major">Formulaire d'ajout</h3>
-												</article>
-												<article>
-													<a href="images/modifierVisiteur.jpg" class="example-image-link image" data-lightbox="example-1"><img src="images/modifierVisiteur.jpg" class="example-image" /></a>
-													<h3 class="major">Formulaire de modification</h3>
-												</article>
-											</section>
-											<p>Pour rechercher ou supprimer un visiteur, on a créé un formulaire ou le médecin devra rentrer la référence du visiteur. 
-												Un tableau avec les informations du visiteur s'affichera et pour le supprimé, un message de confirmation s'affichera .</p>
-		
-												<section class="features">
-		
-													<article>
-														<a href="images/supprimerVisiteur.jpg" class="example-image-link image" data-lightbox="example-1"><img src="images/supprimerVisiteur.jpg" class="example-image" /></a>
-														<h3 class="major">Formulaire de suppression</h3>
-													</article>
-													<article>
-														<a href="images/rechercherVisiteur.jpg" class="example-image-link image" data-lightbox="example-1"><img src="images/rechercherVisiteur.jpg" class="example-image" /></a>
-														<h3 class="major">Formulaire de recherche</h3>
-													</article>
-												</section>
+										
 	
 
-										<h3 class="major">Les gestions de matériels</h3>
-										<p>L'onglet concernant les fleurs permet quatre utilisations. Nous pouvons lister ou 
-											ajouter des fleurs tout comme les clients, mais nous pouvons également en supprimer  
-											ou faire une recherche en particulier. Tout cela  en utilisant également le concept 
-											MVC ou les requêtes seront gérées vers une page de gestion de données avec les requêtes 
-											correspondantes qui permettront l'affichage de la fleur en particulier ou la suppression 
-											de celle demandée, tout cela en faisant des verifications d'existence.</p>
+										<h3 class="major">La gestion de médicament</h3>
+										<p>Lorsqu'on entre sur l'onglet des médicament, on trouvera tout la liste des médicaments déjà référencés. On 
+											pourra les modifier simplement en séléctionnant un et cliquer sur le bouton " Modifier" qui vous conduira
+											sur une autre page avec une formulaire avec les informations de ce médicament. 
+										</p>
 									
 									<section class="features">
 										<article>
-											<a href="images1/menuFleur.jpg" class="example-image-link image" data-lightbox="example-1"><img src="images1/menuFleur.jpg" class="example-image" /></a>
-											<h3 class="major">Le menu principal</h3>
+											<a href="images/java/listeMed.jpg" class="example-image-link image" data-lightbox="example-1"><img src="images/java/listeMed.jpg" class="example-image" /></a>
+											<h3 class="major">La liste des médicaments</h3>
 											
 										</article>
 										
 										
-										<article>
+										<!-- <article>
 											<a href="images1/listerFleur.jpg" class="example-image-link image" data-lightbox="example-1"><img src="images1/listerFleur.jpg" class="example-image" /></a>
 											<h3 class="major">Pour lister les fleurs disponible</h3>
 											
-										</article>
+										</article> -->
 									
 									</section>
+									<h3 class="major">L'intéraction des médicaments</h3>
+										<p> Un médecin peut préscrire des ordonnances, mais avant il faut être sur de ne pas donner des médicaments
+											dangereux s'ils sont pris en interval, pour vérifier il suffira de sélectionner un médicament. 
+											Nous avons créer trois tableaux : le premier sera la liste de tout les médicaments, le deuxiéme affichera
+											un ou plusieurs médicaments dangereux à prendre avec celui-ci et le troisième affichera au contraire ceux qui 
+											qui peuvent être pris avec celui-ci.
+										</p>
 									
+									<section class="features">
+										<article>
+											<a href="images/java/interactionGif.gif" class="example-image-link image"  data-lightbox="example-1"><img src="images/java/interactionGif.gif"  class="example-image" /></a>
+											<h3 class="major">La page d'interaction</h3>
+											
+										</article>
+										
+									
+									
+									</section>
+							
+								<h3 class="major">Les types d'individus</h3>
+									<p>Une fois que le médecin a vérifié les intéractions, il doit vérifier si le type de personne (bébé, enfant, femme ou homme) à qui il 
+										va prescrire existe bien dans le fichier, parce que les quantités ou poids des médicaments
+										ne sont pas les mêmes pour tout le monde. Pour cela, nous avons créer une page avec un tableau qui 
+										permettra de les lister, avec un bouton ajouter ou modifier.
+									</p>
+								
+								<section class="features">
+									<article>
+										<a href="images/java/indivModifGif.gif" class="example-image-link image"  data-lightbox="example-1"><img src="images/java/indivModifGif.gif"  class="example-image" /></a>
+										<h3 class="major">Modifier un individu</h3>
+										
+									</article>
+									<article>
+										<a href="images/java/indivAjouterGif.gif" class="example-image-link image"  data-lightbox="example-1"><img src="images/java/indivAjouterGif.gif"  class="example-image" /></a>
+										<h3 class="major">Ajouter un individu</h3>
+										
+									</article>
+									
+								</section>
+
+								<h3 class="major">prescriptions</h3>
+								<p>Pour prescrire une ordonnance, le médecin se retrouvera devant une page avec plusieurs listes déroulantes. Il devra
+									simplement sélectionner un médicament, le poids du médicament, le type de patient et pour finir une définir une posologie
+									ce qui consiste à quel moment le patient devra le prendre.
+								</p>
+							
+							<section class="features">
+								<article>
+									<a href="images/java/prescrire.jpg" class="example-image-link image"  data-lightbox="example-1"><img src="images/java/prescrire.jpg"  class="example-image" /></a>
+									<h3 class="major">La page d"une prescription</h3>
+									
+								</article>
+								<article>
+									<a href="images/java/prescrire1.jpg" class="example-image-link image"  data-lightbox="example-1"><img src="images/java/prescrire1.jpg"  class="example-image" /></a>
+									<h3 class="major">L'ordonnance a bien été prescrite</h3>
+									
+								</article>
+								
+							</section>
 
 								</div>
 							</div>
@@ -158,10 +193,14 @@
 						<div class="inner">
 
 							<h3 class="major">Conclusion</h3>
-							<p>Ce projet php nous a permi de prendre la main sur le concept MVC 
-								et d'en comprendre son importance, en apprenant à l'utiliser à travers 
-								les diverses mises à jour demandées par notre professeur ce qui nous permettra
-								 de mieux structurer nos projets php à l'avenir</p>
+							<p>Ce projet nous a permis à utiliser une base de donnée avec le langague JAVA, à travailler 
+								en équipe mais surtout à savoir gérer nos différentes erreurs que nous avons rencontré 
+								plusieurs fois ainsi que notre stresse avant d'arriver à chaque échéance? Il nous a permit de prendre la main sur le concept MVC, des façons plus rapide pour 
+								coder comme les tableaux.
+							</p>
+							<p>Ce projet JAVA pour moi m'a montré que je pouvais y arrivais malgrés mes difficultés avec ce langage. 
+							 </p>
+								 
 						</div>
 					</div>
 
